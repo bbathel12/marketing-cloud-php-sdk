@@ -1,12 +1,12 @@
 {
-    "name": "dataproboston/marketing-cloud-php-sdk",
+    "name": "bbathel12/marketing-cloud-php-sdk",
     "description": "DataProBoston Salesforce Marketing Cloud (formerly ExactTarget) PHP SDK",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Yaroslav Honcharuk",
-            "email": "yaroslav.xs@gmail.com"
+            "name": "Brice",
+            "email": "bbathel56@gmail.com"
         }
     ],
     "minimum-stability": "stable",
@@ -21,12 +21,12 @@
     },
 	"autoload": {
         "psr-4": { 
-			"DataProBoston\\MarketingCloud\\": "src/"
+			"bbathel12\MarketingCloud\\": "src/"
 		}
     },
     "autoload-dev": {
         "psr-4": {
-            "DataProBoston\\MarketingCloud\\Tests\\": "tests/"
+            "bbathel1\\MarketingCloud\\Tests\\": "tests/"
         }
     }
 }
