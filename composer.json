@@ -21,7 +21,7 @@
     },
 	"autoload": {
         "psr-4": { 
-			"bbathel12\MarketingCloud\\": "src/"
+			"bbathel12\\MarketingCloud\\": "src/"
 		}
     },
     "autoload-dev": {
