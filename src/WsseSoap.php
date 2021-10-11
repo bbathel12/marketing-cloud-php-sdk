@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of DataProBoston Salesforce Marketing Cloud PHP SDK.
+ * This file is part of bbathel12 Salesforce Marketing Cloud PHP SDK.
  *
  * (c) 2017 Yaroslav Honcharuk <yaroslav.xs@gmail.com>
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace DataProBoston\MarketingCloud;
+namespace bbathel12\MarketingCloud;
 
 /*
  * WsseSoap class uses random_bytes() function, that is available from PHP 7.0.

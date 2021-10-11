@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of DataProBoston Salesforce Marketing Cloud PHP SDK.
+ * This file is part of bbathel12 Salesforce Marketing Cloud PHP SDK.
  *
  * (c) 2017 Yaroslav Honcharuk <yaroslav.xs@gmail.com>
  *
@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace DataProBoston\MarketingCloud;
+namespace bbathel12\MarketingCloud;
 
 class Version
 {
     const VERSION = '0.1.0';
 
-    const PACKAGE_NAME = 'dataproboston/marketing-cloud-php-sdk';
+    const PACKAGE_NAME = 'bbathel12/marketing-cloud-php-sdk';
 
     /**
      * @return string

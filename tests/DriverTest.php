@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of DataProBoston Salesforce Marketing Cloud PHP SDK.
+ * This file is part of bbathel12 Salesforce Marketing Cloud PHP SDK.
  *
  * (c) 2017 Yaroslav Honcharuk <yaroslav.xs@gmail.com>
  *
@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace DataProBoston\MarketingCloud\Tests;
+namespace bbathel12\MarketingCloud\Tests;
 
 use PHPUnit\Framework\TestCase;
-use DataProBoston\MarketingCloud\AuthClient;
-use DataProBoston\MarketingCloud\SoapClient;
-use DataProBoston\MarketingCloud\Driver;
+use bbathel12\MarketingCloud\AuthClient;
+use bbathel12\MarketingCloud\SoapClient;
+use bbathel12\MarketingCloud\Driver;
 
 class DriverTest extends AbstractSoapClientTest
 {

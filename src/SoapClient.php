@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of DataProBoston Salesforce Marketing Cloud PHP SDK.
+ * This file is part of bbathel12 Salesforce Marketing Cloud PHP SDK.
  *
  * (c) 2017 Yaroslav Honcharuk <yaroslav.xs@gmail.com>
  *
@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace DataProBoston\MarketingCloud;
+namespace bbathel12\MarketingCloud;
 
-use DataProBoston\MarketingCloud\Version;
-use DataProBoston\MarketingCloud\Exception\RequestException;
-use DataProBoston\MarketingCloud\Exception\ResponseException;
-use DataProBoston\MarketingCloud\Exception\MultipleModeResponseException;
-use DataProBoston\MarketingCloud\WsseSoap;
+use bbathel12\MarketingCloud\Version;
+use bbathel12\MarketingCloud\Exception\RequestException;
+use bbathel12\MarketingCloud\Exception\ResponseException;
+use bbathel12\MarketingCloud\Exception\MultipleModeResponseException;
+use bbathel12\MarketingCloud\WsseSoap;
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Exception\TransferException as HttpException;
 
