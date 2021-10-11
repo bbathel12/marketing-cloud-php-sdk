@@ -38,6 +38,9 @@ class AuthClient
         'authTokenMinExpirationTime' => 30,
         'timeout' => 10,
         'sslVerifyPeer' => false,
+        'wsdl'  => "",
+        'authUrl' => "",
+        'baseUrl' => ""
     ];
 
     /**
@@ -137,7 +140,7 @@ class AuthClient
         }
 
         try {
-            $response = $this->httpClient->request('POST', self::TOKEN_REQUEST_URL, ['json' => $request]);
+            $response = $this->httpClient->request('POST', $this->options["authUrl"], ['json' => $request]);
 
         } catch (HttpException $e) {
             throw new ResponseException('Unable to validate clientId / clientSecret: '.$e->getMessage(), 0, $e);
