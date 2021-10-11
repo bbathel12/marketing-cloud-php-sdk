@@ -1,6 +1,6 @@
 {
     "name": "bbathel12/marketing-cloud-php-sdk",
-    "description": "DataProBoston Salesforce Marketing Cloud (formerly ExactTarget) PHP SDK",
+    "description": "fork of DataProBoston Salesforce Marketing Cloud (formerly ExactTarget) PHP SDK",
     "type": "library",
     "license": "MIT",
     "authors": [
